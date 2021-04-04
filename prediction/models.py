@@ -61,5 +61,5 @@ class StudentDetails(models.Model):
     result = models.IntegerField(choices=RESULTS, blank=True)
 
 
-    def __str__(self):
-        return self.first_name
+    def __int__(self):
+        return self.id
